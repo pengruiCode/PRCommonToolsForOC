@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		830F73C123D693EB005382D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 830F73C023D693EB005382D6 /* AppDelegate.m */; };
-		830F73C423D693EB005382D6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 830F73C323D693EB005382D6 /* SceneDelegate.m */; };
-		830F73C723D693EB005382D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 830F73C623D693EB005382D6 /* ViewController.m */; };
-		830F73CA23D693EB005382D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 830F73C823D693EB005382D6 /* Main.storyboard */; };
-		830F73CC23D693ED005382D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 830F73CB23D693ED005382D6 /* Assets.xcassets */; };
-		830F73CF23D693ED005382D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 830F73CD23D693ED005382D6 /* LaunchScreen.storyboard */; };
-		830F73D223D693ED005382D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 830F73D123D693ED005382D6 /* main.m */; };
 		830F73DC23D693ED005382D6 /* PRCommonToolsForOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 830F73DB23D693ED005382D6 /* PRCommonToolsForOCTests.m */; };
 		830F73E723D693ED005382D6 /* PRCommonToolsForOCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 830F73E623D693ED005382D6 /* PRCommonToolsForOCUITests.m */; };
+		830F740B23D694BF005382D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 830F73F623D694BF005382D6 /* Assets.xcassets */; };
+		830F740C23D694BF005382D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 830F73F723D694BF005382D6 /* ViewController.m */; };
+		830F740D23D694BF005382D6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 830F73F823D694BF005382D6 /* SceneDelegate.m */; };
+		830F740E23D694BF005382D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 830F73F923D694BF005382D6 /* LaunchScreen.storyboard */; };
+		830F740F23D694BF005382D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 830F73FB23D694BF005382D6 /* Main.storyboard */; };
+		830F741023D694BF005382D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 830F73FD23D694BF005382D6 /* main.m */; };
+		830F741123D694BF005382D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 830F73FE23D694BF005382D6 /* AppDelegate.m */; };
+		830F741223D694BF005382D6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 830F73FF23D694BF005382D6 /* Info.plist */; };
+		830F741323D694BF005382D6 /* HUDIndicatorTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 830F740323D694BF005382D6 /* HUDIndicatorTools.m */; };
+		830F741423D694BF005382D6 /* CommonTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 830F740623D694BF005382D6 /* CommonTools.m */; };
+		830F741523D694BF005382D6 /* DataStorageTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 830F740823D694BF005382D6 /* DataStorageTools.m */; };
+		830F741623D694BF005382D6 /* DateTimeTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 830F740A23D694BF005382D6 /* DateTimeTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,23 +42,31 @@
 
 /* Begin PBXFileReference section */
 		830F73BC23D693EB005382D6 /* PRCommonToolsForOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PRCommonToolsForOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		830F73BF23D693EB005382D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		830F73C023D693EB005382D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		830F73C223D693EB005382D6 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		830F73C323D693EB005382D6 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		830F73C523D693EB005382D6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		830F73C623D693EB005382D6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		830F73C923D693EB005382D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		830F73CB23D693ED005382D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		830F73CE23D693ED005382D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		830F73D023D693ED005382D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		830F73D123D693ED005382D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		830F73D723D693ED005382D6 /* PRCommonToolsForOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PRCommonToolsForOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		830F73DB23D693ED005382D6 /* PRCommonToolsForOCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRCommonToolsForOCTests.m; sourceTree = "<group>"; };
 		830F73DD23D693ED005382D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		830F73E223D693ED005382D6 /* PRCommonToolsForOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PRCommonToolsForOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		830F73E623D693ED005382D6 /* PRCommonToolsForOCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRCommonToolsForOCUITests.m; sourceTree = "<group>"; };
 		830F73E823D693ED005382D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		830F73F523D694BF005382D6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		830F73F623D694BF005382D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		830F73F723D694BF005382D6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		830F73F823D694BF005382D6 /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		830F73FA23D694BF005382D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		830F73FC23D694BF005382D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		830F73FD23D694BF005382D6 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		830F73FE23D694BF005382D6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		830F73FF23D694BF005382D6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		830F740023D694BF005382D6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		830F740123D694BF005382D6 /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		830F740323D694BF005382D6 /* HUDIndicatorTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUDIndicatorTools.m; sourceTree = "<group>"; };
+		830F740423D694BF005382D6 /* DataStorageTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataStorageTools.h; sourceTree = "<group>"; };
+		830F740523D694BF005382D6 /* DateTimeTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateTimeTools.h; sourceTree = "<group>"; };
+		830F740623D694BF005382D6 /* CommonTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonTools.m; sourceTree = "<group>"; };
+		830F740723D694BF005382D6 /* HUDIndicatorTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUDIndicatorTools.h; sourceTree = "<group>"; };
+		830F740823D694BF005382D6 /* DataStorageTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataStorageTools.m; sourceTree = "<group>"; };
+		830F740923D694BF005382D6 /* CommonTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTools.h; sourceTree = "<group>"; };
+		830F740A23D694BF005382D6 /* DateTimeTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateTimeTools.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +97,8 @@
 		830F73B323D693EB005382D6 = {
 			isa = PBXGroup;
 			children = (
-				830F73BE23D693EB005382D6 /* PRCommonToolsForOC */,
+				830F740223D694BF005382D6 /* PRCommonToolsForOC */,
+				830F73F423D694BF005382D6 /* PRCommonToolsForOCExample */,
 				830F73DA23D693ED005382D6 /* PRCommonToolsForOCTests */,
 				830F73E523D693ED005382D6 /* PRCommonToolsForOCUITests */,
 				830F73BD23D693EB005382D6 /* Products */,
@@ -99,24 +113,6 @@
 				830F73E223D693ED005382D6 /* PRCommonToolsForOCUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		830F73BE23D693EB005382D6 /* PRCommonToolsForOC */ = {
-			isa = PBXGroup;
-			children = (
-				830F73BF23D693EB005382D6 /* AppDelegate.h */,
-				830F73C023D693EB005382D6 /* AppDelegate.m */,
-				830F73C223D693EB005382D6 /* SceneDelegate.h */,
-				830F73C323D693EB005382D6 /* SceneDelegate.m */,
-				830F73C523D693EB005382D6 /* ViewController.h */,
-				830F73C623D693EB005382D6 /* ViewController.m */,
-				830F73C823D693EB005382D6 /* Main.storyboard */,
-				830F73CB23D693ED005382D6 /* Assets.xcassets */,
-				830F73CD23D693ED005382D6 /* LaunchScreen.storyboard */,
-				830F73D023D693ED005382D6 /* Info.plist */,
-				830F73D123D693ED005382D6 /* main.m */,
-			);
-			path = PRCommonToolsForOC;
 			sourceTree = "<group>";
 		};
 		830F73DA23D693ED005382D6 /* PRCommonToolsForOCTests */ = {
@@ -135,6 +131,39 @@
 				830F73E823D693ED005382D6 /* Info.plist */,
 			);
 			path = PRCommonToolsForOCUITests;
+			sourceTree = "<group>";
+		};
+		830F73F423D694BF005382D6 /* PRCommonToolsForOCExample */ = {
+			isa = PBXGroup;
+			children = (
+				830F73F523D694BF005382D6 /* AppDelegate.h */,
+				830F73F623D694BF005382D6 /* Assets.xcassets */,
+				830F73F723D694BF005382D6 /* ViewController.m */,
+				830F73F823D694BF005382D6 /* SceneDelegate.m */,
+				830F73F923D694BF005382D6 /* LaunchScreen.storyboard */,
+				830F73FB23D694BF005382D6 /* Main.storyboard */,
+				830F73FD23D694BF005382D6 /* main.m */,
+				830F73FE23D694BF005382D6 /* AppDelegate.m */,
+				830F73FF23D694BF005382D6 /* Info.plist */,
+				830F740023D694BF005382D6 /* ViewController.h */,
+				830F740123D694BF005382D6 /* SceneDelegate.h */,
+			);
+			path = PRCommonToolsForOCExample;
+			sourceTree = "<group>";
+		};
+		830F740223D694BF005382D6 /* PRCommonToolsForOC */ = {
+			isa = PBXGroup;
+			children = (
+				830F740923D694BF005382D6 /* CommonTools.h */,
+				830F740623D694BF005382D6 /* CommonTools.m */,
+				830F740523D694BF005382D6 /* DateTimeTools.h */,
+				830F740A23D694BF005382D6 /* DateTimeTools.m */,
+				830F740423D694BF005382D6 /* DataStorageTools.h */,
+				830F740823D694BF005382D6 /* DataStorageTools.m */,
+				830F740723D694BF005382D6 /* HUDIndicatorTools.h */,
+				830F740323D694BF005382D6 /* HUDIndicatorTools.m */,
+			);
+			path = PRCommonToolsForOC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,9 +269,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				830F73CF23D693ED005382D6 /* LaunchScreen.storyboard in Resources */,
-				830F73CC23D693ED005382D6 /* Assets.xcassets in Resources */,
-				830F73CA23D693EB005382D6 /* Main.storyboard in Resources */,
+				830F741223D694BF005382D6 /* Info.plist in Resources */,
+				830F740F23D694BF005382D6 /* Main.storyboard in Resources */,
+				830F740B23D694BF005382D6 /* Assets.xcassets in Resources */,
+				830F740E23D694BF005382D6 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,10 +297,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				830F73C723D693EB005382D6 /* ViewController.m in Sources */,
-				830F73C123D693EB005382D6 /* AppDelegate.m in Sources */,
-				830F73D223D693ED005382D6 /* main.m in Sources */,
-				830F73C423D693EB005382D6 /* SceneDelegate.m in Sources */,
+				830F741623D694BF005382D6 /* DateTimeTools.m in Sources */,
+				830F741123D694BF005382D6 /* AppDelegate.m in Sources */,
+				830F740C23D694BF005382D6 /* ViewController.m in Sources */,
+				830F741523D694BF005382D6 /* DataStorageTools.m in Sources */,
+				830F741323D694BF005382D6 /* HUDIndicatorTools.m in Sources */,
+				830F741023D694BF005382D6 /* main.m in Sources */,
+				830F741423D694BF005382D6 /* CommonTools.m in Sources */,
+				830F740D23D694BF005382D6 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,20 +340,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		830F73C823D693EB005382D6 /* Main.storyboard */ = {
+		830F73F923D694BF005382D6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				830F73C923D693EB005382D6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		830F73CD23D693ED005382D6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				830F73CE23D693ED005382D6 /* Base */,
+				830F73FA23D694BF005382D6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		830F73FB23D694BF005382D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				830F73FC23D694BF005382D6 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -440,7 +474,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PRCommonToolsForOC/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PRCommonToolsForOCExample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,7 +490,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PRCommonToolsForOC/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PRCommonToolsForOCExample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
